@@ -23,7 +23,7 @@ app.get('/track-click', async (req, res) => {
   }
 
   // Redirection vers la page d'avis Google
-  const avisGoogleUrl = 'https://search.google.com/local/writereview?placeid=ChIJFZS9YAZy5kcR0IcR6va0zmI';
+  const avisGoogleUrl = 'https://search.google.com/local/writereview?placeid=ChIJVQSNXgZy5kcRiwd4wa1iMKg';
   res.redirect(avisGoogleUrl);
 });
 
